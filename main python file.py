@@ -105,13 +105,72 @@ Python collections:
 
 
                                                    #dictionary
-anmolDict = {
-    "Name": "Anmol",
-    "Class": "11th",
-    "Marks": 70,
-    "Hours in school": 6
-}                                                 
-print(anmolDict)
-anmolDict["Name"] = "Anmol Kainth"
-print(anmolDict["Name"])
-print(anmolDict)
+# anmolDict = {
+#     "Name": "Anmol",
+#     "Class": "11th",
+#     "Marks": 70,
+#     "Hours in school": 6
+# }                                                 
+# print(anmolDict)
+# anmolDict["Name"] = "Anmol Kainth"
+# print(anmolDict["Name"])
+# print(anmolDict)
+
+                                            #  conditional
+# age = input("Enter your age : ") 
+# age = int(age)
+# print(type (age))                                           
+# if(age>18):
+#     print("You can drive")
+# elif(age==18):
+#     print("You are an awsome teen")    
+# else:
+#     print("You can not drive")    
+
+                                                #loop
+
+# for i in range(0,1000):
+#     print(i) 
+# li = [1,56,"lol"]
+# li={2,34,5,6,677,6}#sets
+# for item in li:
+#     print(item)
+
+# i = 0
+# while(i<100):
+#     print(i+1)
+#     if i == 78:
+#       break
+#     i= i+1
+
+# i = 0
+# while(i<100):
+#     i= i+1
+#     if i == 78:
+#      continue
+#     print(i+1)
+
+                                                    # Functions
+# def greet():
+#     print("Good morning sir")
+#     print("YO!")
+
+# greet()
+# greet()
+
+# def sum(a, b):
+#     c = a + b                                           
+#     return c
+# d = sum(35 , 67)
+# print(d)
+
+
+                                                 #Template
+# class Employee:
+#     def __init__(self, gname, gsalary):
+#      self.name = gname
+#      self.salary = gsalary
+
+# anmol = Employee("Anmol" , 34)
+# print(anmol.name)
+# print(anmol.salary)
